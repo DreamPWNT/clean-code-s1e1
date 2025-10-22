@@ -1,0 +1,46 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 4567108..2ed09cc 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -2,26 +2,26 @@[m
+ <html>[m
+ <head>[m
+   <title>Todo App</title>[m
+[31m-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>[m
+[32m+[m[32m  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">[m
+   <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">[m
+ </head>[m
+ <body>[m
+   <div class="aaa">[m
+     <img src="./eisenhower-matrix.jpg">[m
+[31m-    <a class='more_inf' href="https://goal-life.com/page/method/matrix-eisenhower">Want more details&quest;</a>[m
+[32m+[m[32m    <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details&quest;</a>[m
+   </div>[m
+   <div class="centered-main-page-element">[m
+[31m-    <p id='topSectionForAddingElementToList'>[m
+[32m+[m[32m    <p id="topSectionForAddingElementToList">[m
+       <label for="new-task">Add Item</label>[m
+       <div class="task-row-wrapper">[m
+[31m-        <input id='new-task'class="task" type="text">[m
+[32m+[m[32m        <input id="new-task"class="task" type="text">[m
+         <button>Add</button>[m
+       </div>[m
+     </p>[m
+     <h3>Todo</h3>[m
+[31m-    <ul id='incompleteTasks'>[m
+[32m+[m[32m    <ul id="incompleteTasks">[m
+       <li>[m
+[31m-        <input type='checkbox'>[m
+[32m+[m[32m        <input type="checkbox">[m
+         <label class="task">Pay Bills</label>[m
+         <input type="text" class="task">[m
+         <button class="edit">Edit</button>[m
+[36m@@ -33,7 +33,7 @@[m
+         <input type="checkbox">[m
+         <label class="task">Go Shopping</label>[m
+         <input type="text" value="Go Shopping" class="task">[m
+[31m-        <button class='edit'>Save</button>[m
+[32m+[m[32m        <button class="edit">Save</button>[m
+         <button class="delete"><img src="./remove.svg"></button>[m
+       </li>[m
+     </ul>[m
